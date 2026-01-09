@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login - Cara</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    #main {
+      background-image: url('img/banner.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .login-container {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .login-container .input-group {
+      margin-bottom: 20px;
+    }
+
+    .login-container .input-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+
+    .login-container .input-group input {
+      width: 100%;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    .login-container .btn {
+      width: 100%;
+      padding: 12px;
+      background: #088178;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .login-container .btn:hover {
+      background: #066e67;
+    }
+
+    .login-container .extra {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .login-container .extra a {
+      color: #088178;
+      text-decoration: none;
+    }
+
+    .login-container .extra a:hover {
+      text-decoration: underline;
+    }
+
+    .ra {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="window.location.href='index.html'" style="
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #088178;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+  ">← Back</button>
+
+  <div>
+    <img src="./img/sarara.jpg" alt="">
+  </div>
+
+  <div class="login-container">
+    <h2>Login to Cara</h2>
+    
+    <!-- Corrected Form -->
+    <form action="login.php" method="POST">
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      </div>
+      <div class="ra">
+        <button type="submit" class="btn">Login</button>
+      </div>
+    </form>
+
+    <div class="extra">
+      <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+      <p><a href="forgot.html">Forgot Password?</a></p>
+    </div>
+  </div>
+</body>
+</html>
