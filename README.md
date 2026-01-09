@@ -1,62 +1,90 @@
-# Ecommerce Website With HTML CSS JavaScript
+**mypbl2**
 
-<div align = "center">
-    <img src="./img/icon1.png" alt="Logo" width="50px">
-</div>
+mypbl2 is a web-based project developed using PHP, MySQL, HTML, CSS, and JavaScript.
+The project is under active development. The Contact and Sign-in backend modules are fully completed and working, while the frontend is around 90% complete. Other backend functionalities are currently in progress.
 
-<h3 align="center"><b>E-commerce Website</b></h3>
+📌** Project Name**
 
-<p align="center">
-    <a href="https://sahadcmd.github.io/Ecommerce-Website/" target="_blank">Visit Website</a>
-    ·
-    <a href="https://github.com/sahadcmd/Ecommerce-Website/issues" target="_blank">Report Bug</a>
-    ·
-    <a href="https://github.com/sahadcmd/Ecommerce-Website/issues" target="_blank">Request Feature</a>
-</p>
+mypbl2
 
-## About this project 🚀
+🛠️ **Technologies Used**
 
-This is a responsive E-commerce website using HTML, CSS, and JavaScript. The website seamlessly adapts to different screen sizes, providing an optimal user experience. This project allowed me to showcase my skills in front-end web development and create a visually appealing and user-friendly online shopping platform.
+PHP
 
-## Technologies 🛠️
+MySQL
 
-* `HTML`
-* `CSS`
-* `JavaScript`
-* `Bootstrap`
-* `jQuery`
+HTML5
 
-## How it looks 📷
+CSS3
 
-<div align="center">
-    <img src="./img/Screenshot/Screenshot01.png">
-</div>
+JavaScript
 
-<br>
-<br>
+XAMPP (Apache & MySQL)
 
-<div align="center">
-    <img src="./img/Screenshot/Screenshot2.png">
-</div>
-<br>
-<br>
+🚀 Project Status
 
-<div align="center">
-    <img src="./img/Screenshot/Screenshot3.png">
-</div>
-<br>
+✅ Contact Module (Backend): Completed & Working
 
-<br>
-<br>
+✅ Sign-in Module (Backend): Completed & Working
 
-<div align="center">
-  <img src="./img/about/a2.jpg">
-</div>
+⚙️ Other Backend Modules: Under Development
 
-<br>
-<hr>
-<h5 align="center">Connect with me!</h5>
+🎨 Frontend: 90% Completed
 
-  <p align="center">
-    <a href="https://www.linkedin.com/in/sahadmahaboobp" target="_blank">LinkedIn</a>
-  </p>
+⚙️ Installation & Setup Guide
+
+Follow the steps below to run the project locally:
+
+1️⃣ **Download the Project**
+
+Download or clone the repository.
+
+Extract the ZIP file if necessary.
+
+2️⃣** Move Project Folder**
+
+Copy the project folder named mypbl2.
+
+Paste it into the XAMPP htdocs directory:
+
+C:\xampp\htdocs\
+
+3️⃣ **Start XAMPP Server**
+
+Open XAMPP Control Panel
+
+Start:
+
+✅ Apache
+
+✅ MySQL
+
+4️⃣ **Open phpMyAdmin**
+
+Open your browser and go to:
+
+http://localhost/phpmyadmin
+
+5️⃣ **Create Database**
+
+Click on New
+
+Create a database with the name:
+
+mypbl2_db
+
+6️⃣ **Import Database**
+
+Select the mypbl2_db database.
+
+Click on the Import tab.
+
+Choose the .sql file provided in the mypbl2 project folder.
+
+Click Go to complete the import.
+
+7️⃣ **Run the Project**
+
+Open your browser and visit:
+
+http://localhost/mypbl2
